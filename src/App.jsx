@@ -1,5 +1,5 @@
-function App() {
-  return <div className="App">hello word</div>
-}
+import Login from './pages/Login'
 
-export default App
+export default function App() {
+  return <Login />
+}
