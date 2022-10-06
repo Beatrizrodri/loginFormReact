@@ -1,0 +1,12 @@
+#container-login-form {
+  width: 70%;
+  height: auto;
+  background-color: var(--form-background);
+  border-radius: 0.4rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
