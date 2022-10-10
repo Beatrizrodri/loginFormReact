@@ -1,0 +1,43 @@
+#button-content {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#button-content > button {
+  width: 100%;
+  height: 5rem;
+  border-radius: 0.4rem;
+  border: none;
+  background-color: var(--primary-color);
+  margin-bottom: 2rem;
+
+  font-family: 'Poppins';
+  font-weight: 600;
+  font-size: 1.8rem;
+  line-height: 2.7rem;
+
+  letter-spacing: 0.015em;
+  text-transform: uppercase;
+  color: var(--background);
+}
+
+#button-content > span {
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 2.1rem;
+  color: var(--primary-color);
+}
+
+#button-content > span > a {
+  font-weight: 600;
+  color: var(--primary-color);
+}
+
+@media screen and (max-width: 430px) {
+  #button-content {
+    width: 90%;
+  }
+}
