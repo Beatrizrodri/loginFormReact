@@ -11,3 +11,15 @@
   gap: 2rem;
   padding: 5.5rem 0;
 }
+
+@media screen and (max-width: 620px) {
+  #container-login-form {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  #container-login-form {
+    width: 90%;
+  }
+}

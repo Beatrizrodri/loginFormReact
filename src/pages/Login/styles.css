@@ -28,3 +28,23 @@
   background-position: center;
   background-repeat: no-repeat;
 }
+
+@media screen and (max-width: 1200px) {
+  #background {
+    width: 60%;
+  }
+
+  #image-container {
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  #background {
+    width: 100%;
+  }
+
+  #image-container {
+    display: none;
+  }
+}

@@ -1,8 +1,9 @@
 #password-reminder-container {
-  width: 60%;
+  width: 70%;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: 1rem 0;
 }
 
 #checkbox-content {
@@ -21,7 +22,7 @@
   font-size: 1.6rem;
   line-height: 1.9rem;
   color: var(--text-base);
-  margin-left: 0.6rem;
+  margin-left: 0.8rem;
 }
 
 #password-reminder-container > span {
@@ -30,4 +31,19 @@
   font-size: 1.4rem;
   line-height: 2.1rem;
   color: var(--primary-color);
+}
+
+@media screen and (max-width: 430px) {
+  #password-reminder-container {
+    width: 90%;
+  }
+
+  #checkbox-content > label {
+    font-size: 1.4rem;
+    margin-left: 0.6rem;
+  }
+
+  #password-reminder-container > span {
+    font-size: 1.2rem;
+  }
 }

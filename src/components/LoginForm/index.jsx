@@ -1,3 +1,4 @@
+import Button from '../Button'
 import Input from '../Input'
 import PasswordReminder from '../PasswordReminder'
 import Title from '../Title'
@@ -10,6 +11,7 @@ export default function LoginForm() {
       <Input label="E-mail" type="email" placeholder="Digite seu email" />
       <Input label="Senha" type="password" placeholder="Digite sua senha" />
       <PasswordReminder />
+      <Button />
     </div>
   )
 }

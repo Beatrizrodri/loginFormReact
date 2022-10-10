@@ -1,5 +1,5 @@
 .content {
-  width: 60%;
+  width: 70%;
   display: flex;
   flex-direction: column;
 }
@@ -76,4 +76,10 @@ input:focus ~ .reveal-password-icon {
 
 .reveal-password-icon:hover {
   color: var(--primary-color);
+}
+
+@media screen and (max-width: 430px) {
+  .content {
+    width: 90%;
+  }
 }
